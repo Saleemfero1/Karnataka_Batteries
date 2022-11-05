@@ -1,0 +1,1 @@
+<?php echo "<script>alert('your order has been placed and will reach you'); window.location.href='home.html'</script>"; ?>

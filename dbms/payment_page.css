@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+#header #cart i{
+	margin: 8vh 0vh 0vh 10vh;
+	padding: 2vh;
+	border: 1vh solid gray;
+	border-radius: 5vh;
+}
+
+#header #content{
+	margin: -8vh 0vh 0vh 10vw;
+}
+
+#header #content p{
+	margin-left: 4px;
+}
+
+#header #clear_cart{
+	margin: -5vh 6vh 0vh 85vw;
+	border: 3px solid red;
+	padding: 1.5vh;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+#header #clear_cart i{
+	color: red;
+}
+
+#header #clear_cart h2{
+	color: red;
+	margin-top: -3vh;
+	margin-left: 4vh;
+}
+
+#order{
+	margin: 7vh 0vh 0vh 43vw;
+}
+
+
+#product_details{
+	margin: 7vh 0vh 0vh 32vw;
+}
+
+#product_details table tr td{
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+
+#product_details table tr td h2{
+	color: red;
+}
+
+#product_details table tr td h3{
+	color: darkolivegreen;
+}
+
+#product_details table tr td h3 input[type=number]{
+	padding: 3px;
+	background-color: lightgray;
+}
+
+#product_details table tr td h3 input[type=text]{
+	padding: 0px 0px 0px 0px;
+	height: 10vh;
+	width: 30vh;
+	background-color: lightgray;
+}
+
+
+#product_details table tr td input[type=submit]{
+	background-color: cadetblue;
+	padding: 13px;	
+	border-radius: 5px;
+	margin: 4vh 0vh 0vh 10vh;
+}

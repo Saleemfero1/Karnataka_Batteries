@@ -1,0 +1,178 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lobster+Two:ital@1&family=PT+Serif:ital@1&family=Teko:wght@300&display=swap');
+html body{
+      margin: 0;
+      padding:0;
+      overflow: hidden;
+      background: fixed;
+
+    }
+.row{
+  width: 100%;
+  float: left;
+  padding: 20px ; 
+  background-color: #0dbf93;
+}
+.col-1{
+  width:20%;
+  height: 320px;
+  padding: 15px;
+  display: inline-flex;
+  margin:10px;
+
+  place-items: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid groove;
+  background-color:floralwhite;
+  box-shadow: 7px 4px 15px black;
+  z-index: 0;
+  position: relative;
+  transition: 0.2s all;
+
+
+}
+@media screen and (max-width: 1024px)
+{
+  .row{
+    width: 100%;
+    padding: 10px;
+  }
+  .col-1{
+    width:40%;
+    display: inline-flex;
+    background-color: white;
+    font-size:12px;
+  } 
+  
+
+}
+.logo,.imge1{
+  height: 100%;
+  width: 100%;
+}
+.cate{
+  background-color: whitesmoke;
+  text-align: center;
+}
+.catelogo{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'PT Serif', serif;
+  font-family: 'Teko', sans-serif;
+}
+.blogo{
+  font-family: 'Teko', sans-serif;
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 04px black;
+}
+.columnfooter{
+  width: 25%;
+  float: left;
+  padding: 10px;
+
+}
+.fheader{
+  float: left;
+  width: 100vw;
+  font-family: 'Teko', sans-serif;
+  font-size:30px;
+  font-weight:bolder;
+  color: black;
+  }
+.fcontent{
+  font-weight: bold;
+  color: black;
+}
+@media screen and (max-width: 1024px)
+{
+  .columnfooter{
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+
+  }
+  .header1,.head_content{
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.topsection{
+  
+  color:white;
+  font-size: bolder;
+  background-color:goldenrod;
+  padding:5px 5px 5px 40px;
+  
+}
+ 
+.topsection span{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Teko', sans-serif;
+    color:whitesmoke;
+    text-shadow: 1px 2px 10px black;
+
+}
+.carbattery{
+  place-items: center;
+  background-color: ghostwhite;
+}
+.carbattery,.car{
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 100px;
+    text-shadow: 2px 2px 6px black;
+    color: whitesmoke;
+    text-align: center;
+
+
+}
+.navbutton{
+  padding: 0px 40px;
+}
+.navbar{
+  background-color:;
+  padding: 20px;
+  margin: 0;
+}
+.navbar-item{
+  color: black;
+  font-weight: bold;
+}
+
+a.navbar-item:hover{
+  border-radius: 30px;
+}
+.footer1{
+  text-align: center;
+  color:white;
+  font-size: bolder;
+  background-color:black;
+  padding: 20px;
+  
+}
+
+.footer1 span{
+
+  color:white;
+}
+.tex1{
+  color: black;
+}
+img{
+  box-shadow: 3px 3px 6px black;
+  height: 200px;
+  width: 220px;
+}
+.col-1:hover{
+  z-index: 1;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+
+}
